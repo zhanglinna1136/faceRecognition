@@ -21,8 +21,8 @@ class Dao:
             self.feature = args[0]
             self.user = self.feature.user
             self.embeddings = self.feature.embeddings
-        #    连接数据库
-        self.conn = MySQLdb.connect(host='localhost', user='root', passwd='123456789', db='fr', charset='gb2312')
+        #    连接数据库（填写自己的数据库地址）
+        self.conn = MySQLdb.connect(host='*********', user='********', passwd='*******', db='******')
 
     def setUp(self, sql):
         """

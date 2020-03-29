@@ -2,9 +2,10 @@
 
 # Form implementation generated from reading ui file 'show_Camera.ui'
 #
-# Created by: PyQt5 UI code generator 5.9.2
+# Created by: PyQt5 UI code generator 5.13.0
 #
 # WARNING! All changes made in this file will be lost!
+
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 
@@ -77,9 +78,12 @@ class Ui_MainWindow(object):
         self.idInput = QtWidgets.QLineEdit(self.centralwidget)
         self.idInput.setGeometry(QtCore.QRect(890, 220, 113, 21))
         self.idInput.setObjectName("idInput")
+        self.fanhui = QtWidgets.QPushButton(self.centralwidget)
+        self.fanhui.setGeometry(QtCore.QRect(30, 240, 131, 61))
+        self.fanhui.setObjectName("fanhui")
         # MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 1110, 23))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 1110, 26))
         self.menubar.setObjectName("menubar")
         # MainWindow.setMenuBar(self.menubar)
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
@@ -102,3 +106,4 @@ class Ui_MainWindow(object):
         self.label.setText(_translate("MainWindow", "姓名"))
         self.label_2.setText(_translate("MainWindow", "学号"))
         self.idInput.setPlaceholderText(_translate("MainWindow", "按下回车键结束"))
+        self.fanhui.setText(_translate("MainWindow", "主界面"))

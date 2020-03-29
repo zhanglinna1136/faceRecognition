@@ -10,19 +10,20 @@ import numpy as np
 
 class Dao:
     def __init__(self, *args):
+        print(len(args))
         if len(args) == 0:
             pass
-
-    if len(args) > 1:
-        # 存储用户信息（user）
-        self.user = args[0]
-    else:
-        # 存储人脸特征点
-        self.feature = args[0]
-        self.user = self.feature.user
-        self.embeddings = self.feature.embeddings
-        #    连接数据库
-    self.conn = MySQLdb.connect(host='localhost', user='root', passwd='123456789', db='fr', charset='gb2312')
+        elif len(args) > 1:
+            # 存储用户信息（user）
+            self.user = args[0]
+        else:
+            # 存储人脸特征点
+            print(args)
+            self.feature = args[0]
+            self.user = self.feature.user
+            self.embeddings = self.feature.embeddings
+            #    连接数据库（填写自己的数据库地址）
+        self.conn = MySQLdb.connect(host='*********', user='****', passwd='****', db='***')
 
     def setUp(self, sql):
         """

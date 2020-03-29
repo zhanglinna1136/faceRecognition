@@ -5,7 +5,8 @@ import align.detect_face as detect_face
 import numpy as np
 
 facenetLoad = False
-model_path = '../../models/20180408-102900'
+# model_path = '../../models/20180408-102900'
+model_path = '../models/20180408-102900'
 
 """
  该模块用来初始化tensorflow框架，搭建mtcnn和facenet神经网络模型

@@ -124,10 +124,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataset/test/database.py">
+        <entry file="file://$PROJECT_DIR$/dataset/Python/database.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="37" column="12" lean-forward="true" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
+            <state relative-caret-position="69">
+              <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -135,20 +135,71 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/models/20180408-102900/20180408-102900.pb">
-          <provider selected="true" editor-type-id="LargeFileEditor">
-            <state relative-caret-position="-3887">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://E:/FR/envs/py36/Lib/site-packages/MySQLdb/connections.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="165" selection-start-line="165" selection-end-line="165" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataset/Python/database.py">
+        <entry file="file://E:/FR/envs/py36/Lib/site-packages/MySQLdb/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="83" selection-start-line="83" selection-end-line="83" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/face_recognition.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="39" lean-forward="true" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main/_main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="161">
-              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+              <caret line="67" column="37" selection-start-line="67" selection-start-column="37" selection-end-line="67" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/font/show_Camera_Logic.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/object/Python/feature.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+              <folding>
+                <element signature="e#125#171#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataset/test/database.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="24" column="96" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="96" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -159,55 +210,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/object/test/feature.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2369">
-              <caret line="108" column="42" selection-start-line="108" selection-start-column="42" selection-end-line="108" selection-end-column="42" />
+            <state relative-caret-position="163">
+              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
               <folding>
                 <element signature="e#95#141#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/object/Python/feature.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-              <folding>
-                <element signature="e#125#171#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/detection/test/mtcnnDetection.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/face_recognition.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2898">
-              <caret line="129" column="35" selection-start-line="129" selection-start-column="35" selection-end-line="129" selection-end-column="35" />
-              <folding>
-                <element signature="e#23#47#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/detection/Python/mtcnnDetection.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="15" column="29" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="29" />
-              <folding>
-                <element signature="e#80#96#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -257,8 +263,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/create_dataset2.py" />
-        <option value="$PROJECT_DIR$/utils/time.py" />
         <option value="$PROJECT_DIR$/../README.md" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/evaluation_test.py" />
@@ -286,7 +290,6 @@
         <option value="D:/QQ数据/test01.py" />
         <option value="$PROJECT_DIR$/dataset/test.py" />
         <option value="$PROJECT_DIR$/font/main.py" />
-        <option value="$PROJECT_DIR$/font/show_Camera.py" />
         <option value="$PROJECT_DIR$/dataset/database.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/identify/identification.py" />
@@ -299,20 +302,24 @@
         <option value="$PROJECT_DIR$/identify/test/identification.py" />
         <option value="$PROJECT_DIR$/object/user.py" />
         <option value="$PROJECT_DIR$/object/feature.py" />
-        <option value="$PROJECT_DIR$/core/facenet.py" />
         <option value="$PROJECT_DIR$/object/Python/user.py" />
-        <option value="$PROJECT_DIR$/font/show_Camera_Logic.py" />
         <option value="$PROJECT_DIR$/object/test/test.py" />
-        <option value="$PROJECT_DIR$/dataset/test/database.py" />
-        <option value="$PROJECT_DIR$/dataset/Python/database.py" />
         <option value="$PROJECT_DIR$/object/test/feature.py" />
         <option value="$PROJECT_DIR$/object/Python/feature.py" />
+        <option value="$PROJECT_DIR$/font/show_Camera.py" />
+        <option value="$PROJECT_DIR$/font/show_Camera_Logic.py" />
+        <option value="$PROJECT_DIR$/core/facenet.py" />
+        <option value="$PROJECT_DIR$/font/find/SQL.py" />
+        <option value="$PROJECT_DIR$/main/_main.py" />
+        <option value="$PROJECT_DIR$/dataset/test/database.py" />
         <option value="$PROJECT_DIR$/core/face_recognition.py" />
+        <option value="$PROJECT_DIR$/dataset/Python/database.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -333,13 +340,46 @@
             <path>
               <item name="faceRecognition" type="b2602c69:ProjectViewProjectNode" />
               <item name="faceRecognition" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="align" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="faceRecognition" type="b2602c69:ProjectViewProjectNode" />
               <item name="faceRecognition" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="20180408-102900" type="462c0819:PsiDirectoryNode" />
+              <item name="dataset" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="faceRecognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="faceRecognition" type="462c0819:PsiDirectoryNode" />
+              <item name="dataset" type="462c0819:PsiDirectoryNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="faceRecognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="faceRecognition" type="462c0819:PsiDirectoryNode" />
+              <item name="dataset" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="faceRecognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="faceRecognition" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="faceRecognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="faceRecognition" type="462c0819:PsiDirectoryNode" />
+              <item name="object" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="faceRecognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="faceRecognition" type="462c0819:PsiDirectoryNode" />
+              <item name="object" type="462c0819:PsiDirectoryNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="faceRecognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="faceRecognition" type="462c0819:PsiDirectoryNode" />
+              <item name="object" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -350,29 +390,29 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/Holiday_Project/20190819" />
+    <property name="last_opened_file_path" value="E:/Git/self/Git-2.25.0-64-bit.exe" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\学习\大学\大三秋季学期\创新项目设计综合训练(1)\人脸识别项目\faceRecognition\font" />
+      <recent name="F:\学习\大学\大三秋季学期\创新项目设计综合训练(1)\人脸识别项目\faceRecognition" />
+      <recent name="F:\学习\大学\大三秋季学期\创新项目设计综合训练(1)\人脸识别项目\faceRecognition\Image" />
+      <recent name="F:\学习\大学\大三秋季学期\创新项目设计综合训练(1)\人脸识别项目\faceRecognition\object\test" />
+      <recent name="F:\学习\大学\大三秋季学期\创新项目设计综合训练(1)\人脸识别项目\faceRecognition\identify\test" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\学习\大学\大三秋季学期\创新项目设计综合训练(1)\人脸识别项目\faceRecognition\object\Python" />
       <recent name="F:\学习\大学\大三秋季学期\创新项目设计综合训练(1)\人脸识别项目\faceRecognition\identify\Python" />
       <recent name="F:\学习\大学\大三秋季学期\创新项目设计综合训练(1)\人脸识别项目\faceRecognition\dataset\test" />
       <recent name="F:\学习\大学\大三秋季学期\创新项目设计综合训练(1)\人脸识别项目\faceRecognition\dataset\Python" />
       <recent name="F:\学习\大学\大三秋季学期\创新项目设计综合训练(1)\人脸识别项目\faceRecognition\detection\test" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\学习\大学\大三秋季学期\创新项目设计综合训练(1)\人脸识别项目\faceRecognition\Image" />
-      <recent name="F:\学习\大学\大三秋季学期\创新项目设计综合训练(1)\人脸识别项目\faceRecognition\object\test" />
-      <recent name="F:\学习\大学\大三秋季学期\创新项目设计综合训练(1)\人脸识别项目\faceRecognition\identify\test" />
-      <recent name="F:\学习\大学\大三秋季学期\创新项目设计综合训练(1)\人脸识别项目\faceRecognition\object" />
-      <recent name="F:\学习\大学\大三秋季学期\创新项目设计综合训练(1)\人脸识别项目\faceRecognition\models" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -387,7 +427,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.feature">
+  <component name="RunManager" selected="Python._main">
+    <configuration name="_main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="faceRecognition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/_main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="database" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="faceRecognition" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -402,6 +464,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/test/database.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="facenet" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="faceRecognition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/facenet.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -432,9 +516,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="show_Camera_Logic" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="faceRecognition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/font" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/font/show_Camera_Logic.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python._main" />
         <item itemvalue="Python.feature" />
+        <item itemvalue="Python.facenet" />
+        <item itemvalue="Python.show_Camera_Logic" />
         <item itemvalue="Python.database" />
       </list>
     </recent_temporary>
@@ -519,11 +628,15 @@
       <workItem from="1577688673898" duration="27000" />
       <workItem from="1577694368412" duration="42000" />
       <workItem from="1579848004421" duration="1276000" />
+      <workItem from="1584254769472" duration="1982000" />
+      <workItem from="1584355109023" duration="18000" />
+      <workItem from="1585413690825" duration="3790000" />
+      <workItem from="1585442217179" duration="2067000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="394183000" />
+    <option name="totallyTimeSpent" value="402040000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -536,13 +649,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2965204" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17549168" />
       <window_info id="Structure" order="1" weight="0.24962178" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32980332" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49848714" weight="0.19836065" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5226929" weight="0.23278688" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5226929" visible="true" weight="0.5770492" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.2672131" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -595,7 +709,7 @@
     <SUITE FILE_PATH="coverage/faceRecognition$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1573267965862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/faceRecognition2_1$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1569952098532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/faceRecognition$predict.coverage" NAME="predict Coverage Results" MODIFIED="1557901223053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/faceRecognition$show_Camera_Logic.coverage" NAME="show_Camera_Logic Coverage Results" MODIFIED="1573268398423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/font" />
+    <SUITE FILE_PATH="coverage/faceRecognition$show_Camera_Logic.coverage" NAME="show_Camera_Logic Coverage Results" MODIFIED="1585416140192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/font" />
     <SUITE FILE_PATH="coverage/faceRecognition$image_processing.coverage" NAME="image_processing Coverage Results" MODIFIED="1556441741294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/faceRecognition2_1$test0.coverage" NAME="test0 Coverage Results" MODIFIED="1569951326146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/faceRecognition$batch_test.coverage" NAME="batch_test Coverage Results" MODIFIED="1557901729437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -603,12 +717,13 @@
     <SUITE FILE_PATH="coverage/faceRecognition$create_dataset2.coverage" NAME="create_dataset2 Coverage Results" MODIFIED="1556444145180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/faceRecognition$database__1_.coverage" NAME="database (1) Coverage Results" MODIFIED="1573978249837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataset/test" />
     <SUITE FILE_PATH="coverage/faceRecognition2_1$database.coverage" NAME="database Coverage Results" MODIFIED="1569935246705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataset" />
-    <SUITE FILE_PATH="coverage/faceRecognition$feature.coverage" NAME="feature Coverage Results" MODIFIED="1576123575757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/object/test" />
+    <SUITE FILE_PATH="coverage/faceRecognition$feature.coverage" NAME="feature Coverage Results" MODIFIED="1585443532856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/object/test" />
     <SUITE FILE_PATH="coverage/faceRecognition2_1$createFeature.coverage" NAME="createFeature Coverage Results" MODIFIED="1569762430443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/createFeature" />
     <SUITE FILE_PATH="coverage/faceRecognition2_1$feature.coverage" NAME="feature Coverage Results" MODIFIED="1569931640160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/object" />
     <SUITE FILE_PATH="coverage/faceRecognition2_0$predict.coverage" NAME="predict Coverage Results" MODIFIED="1565775693826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/faceRecognition$create_dataset.coverage" NAME="create_dataset Coverage Results" MODIFIED="1557882335163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/faceRecognition$identification.coverage" NAME="identification Coverage Results" MODIFIED="1573958447963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/identify/Python" />
+    <SUITE FILE_PATH="coverage/faceRecognition$_main.coverage" NAME="_main Coverage Results" MODIFIED="1585444329763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
     <SUITE FILE_PATH="coverage/faceRecognition2_1$test.coverage" NAME="test Coverage Results" MODIFIED="1569934530614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataset" />
     <SUITE FILE_PATH="coverage/faceRecognition$database.coverage" NAME="database Coverage Results" MODIFIED="1575371040064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataset/test" />
     <SUITE FILE_PATH="coverage/faceRecognition2_1$create_dataset.coverage" NAME="create_dataset Coverage Results" MODIFIED="1565871785864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -618,6 +733,7 @@
     <SUITE FILE_PATH="coverage/faceRecognition$test.coverage" NAME="test Coverage Results" MODIFIED="1574530175002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/object/test" />
     <SUITE FILE_PATH="coverage/faceRecognition2_0$cammera_UI.coverage" NAME="cammera_UI Coverage Results" MODIFIED="1565764435214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UI" />
     <SUITE FILE_PATH="coverage/faceRecognition2_1$Feature.coverage" NAME="Feature Coverage Results" MODIFIED="1569762836702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/User" />
+    <SUITE FILE_PATH="coverage/faceRecognition$facenet.coverage" NAME="facenet Coverage Results" MODIFIED="1585416212157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core" />
     <SUITE FILE_PATH="coverage/faceRecognition$face_recognition.coverage" NAME="face_recognition Coverage Results" MODIFIED="1573979136520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core" />
     <SUITE FILE_PATH="coverage/faceRecognition$evaluation_test.coverage" NAME="evaluation_test Coverage Results" MODIFIED="1557882501153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -671,17 +787,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../python存取图片/test.py" />
-    <entry file="file://$PROJECT_DIR$/test0.py" />
-    <entry file="file://D:/QQ数据/test01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UI.py" />
-    <entry file="file://$PROJECT_DIR$/font/helloqt.py" />
     <entry file="file://$PROJECT_DIR$/dataset/SQL">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -750,14 +855,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py" />
-    <entry file="file://$PROJECT_DIR$/object/Python/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/align/det2.npy">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -765,16 +862,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="39" column="11" lean-forward="true" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/facenet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="290" column="34" lean-forward="true" selection-start-line="290" selection-start-column="34" selection-end-line="290" selection-end-column="34" />
-          <folding>
-            <element signature="e#1210#1248#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -815,16 +902,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/font/show_Camera_Logic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="101" column="41" selection-start-line="101" selection-start-column="41" selection-end-line="101" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Image/zhoujielun1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -837,25 +914,11 @@
     <entry file="file://$PROJECT_DIR$/Image/huge1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/font/show_Camera.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/object/test/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/FR/envs/py36/Lib/site-packages/MySQLdb/connections.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="225" selection-start-line="225" selection-end-line="225" />
         </state>
       </provider>
     </entry>
@@ -882,53 +945,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/identify/test/identification.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-          <folding>
-            <element signature="e#88#129#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/test/database.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="37" column="12" lean-forward="true" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/Python/database.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/object/test/feature.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2369">
-          <caret line="108" column="42" selection-start-line="108" selection-start-column="42" selection-end-line="108" selection-end-column="42" />
-          <folding>
-            <element signature="e#95#141#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/object/Python/feature.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-          <folding>
-            <element signature="e#125#171#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/models/20180408-102900/20180408-102900.pb">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="368">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -936,16 +956,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="667">
           <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/face_recognition.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2898">
-          <caret line="129" column="35" selection-start-line="129" selection-start-column="35" selection-end-line="129" selection-end-column="35" />
-          <folding>
-            <element signature="e#23#47#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -959,10 +969,129 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/20180408-102900/20180408-102900.pb">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="-3887">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+    <entry file="file://$PROJECT_DIR$/font/show_Camera.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/identify/test/identification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding>
+            <element signature="e#88#129#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/font/Take_pictures/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/font/Checkin/test/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/font/find/SQL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object/Python/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/font/show_Camera_Logic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/face_recognition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="39" lean-forward="true" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/FR/envs/py36/Lib/site-packages/MySQLdb/connections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="165" selection-start-line="165" selection-end-line="165" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/facenet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="402" selection-start-line="402" selection-end-line="402" />
+          <folding>
+            <element signature="e#1210#1248#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/FR/envs/py36/Lib/site-packages/MySQLdb/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object/test/feature.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+          <folding>
+            <element signature="e#95#141#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object/Python/feature.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+          <folding>
+            <element signature="e#125#171#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/test/database.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="24" column="96" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="96" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/Python/database.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="67" column="37" selection-start-line="67" selection-start-column="37" selection-end-line="67" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

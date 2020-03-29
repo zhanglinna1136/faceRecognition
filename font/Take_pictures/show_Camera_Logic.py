@@ -1,22 +1,24 @@
 import cv2
 import sys
 from PyQt5 import QtCore, QtGui, QtWidgets
-from font.show_Camera import Ui_MainWindow
-from object.Python.feature import *  # feature中导入了user
-from detection.test.mtcnnDetection import *
+from show_Camera import Ui_MainWindow
+from object.user import User
+from object import feature, user
+from detection.mtcnnDetection import *
+from dataset.database import Dao
 
 user = User("", "", "")  # user对象,用于向后台提供数据包
-# photos = []  # 用于存放照片（两张）
-threshold = 0.99  # 人脸检测的阈值
+photos = []  # 用于存放照片（两张）
+threshold = 0.99 #人脸检测的阈值
 
-
-class mywindow(QtWidgets.QWidget, Ui_MainWindow):
+class mywindow(QtWidgets.QWidget, Ui_MainWindow):#继承QtWidgets.QWidget, Ui_MainWindow
     def __init__(self, parent=None):
-        super(mywindow, self).__init__(parent)  # 父类的构造函数
+        super(mywindow, self).__init__(parent)  # 继承父类的构造函数
+
         self.timer_camera = QtCore.QTimer()  # 定义定时器，用于控制显示视频的帧率
         self.cap = cv2.VideoCapture()  # 创建一个VideoCapture对象
         self.CAM_NUM = 0  # 为0时表示视频流来自笔记本内置摄像头
-        self.count = 0  # 用于记录“拍照”被点击的次数
+        self.count=0  #用于记录“拍照”被点击的次数
 
         self.setupUi(self)  # 初始化程序界面
         self.slot_init()  # 初始化槽函数
@@ -57,62 +59,92 @@ class mywindow(QtWidgets.QWidget, Ui_MainWindow):
         self.show = cv2.flip(self.show, 1, dst=None)  # 进行水平镜像处理，即摄像头中的方向和现实中的方向相同
         self.showImage = QtGui.QImage(self.show.data, self.show.shape[1], self.show.shape[0],
                                       QtGui.QImage.Format_RGB888)  # 把读取到的视频数据变成QImage形式
+
         self.SHOW.setPixmap(QtGui.QPixmap.fromImage(self.showImage))  # 在lable中显示视频
 
+
     # 进行拍照
+
     def take_pictures(self):
-        photo = []
         if self.timer_camera.isActive() == False:  # 如果摄像头未开启
             msg = QtWidgets.QMessageBox.warning(self, 'warning', "请打开摄像头", buttons=QtWidgets.QMessageBox.Ok)
         else:
-            if self.count % 2 == 0:
-                self.showpictures.setPixmap(QtGui.QPixmap.fromImage(self.showImage))
-                user.photos.append(self.show)
-                test = photo_calculation_and_processing(self.show, threshold)
-                # print(test)
-                if test is False:  # 如果人脸检测失败，重新拍照
-                    print(test)
-                    msg = QtWidgets.QMessageBox.warning(self, "警告", "请重新拍照", buttons=QtWidgets.QMessageBox.Ok)
-                else:
-                    print(test)
-                    self.count += 1
+            if self.count%2==0:
+              self.showpictures.setPixmap(QtGui.QPixmap.fromImage(self.showImage))
+              #print(type(self.showImage))showImage类型为<class 'PyQt5.QtGui.QImage'>
+              test = photo_calculation_and_processing(self.show, threshold)
+              if(test==False):#如果人脸检测失败，重新拍照
+                  msg=QtWidgets.QMessageBox.warning(self,"警告","请重新拍照",buttons=QtWidgets.QMessageBox.Ok)
+              else:#输出人脸框和人脸特征点
+                  photos.append(self.image)#!!!添加到用户图片里的只能是原始格式，不能为self.show或self.showImage
+                  msg = QtWidgets.QMessageBox.warning(self, "结果", "拍照成功", buttons=QtWidgets.QMessageBox.Ok)
+                  self.count += 1
+
+
             else:
-                self.showpictures2.setPixmap(QtGui.QPixmap.fromImage(self.showImage))
-                self.count += 1
-                user.photos.append(self.show)
+              self.showpictures2.setPixmap(QtGui.QPixmap.fromImage(self.showImage))
+              test = photo_calculation_and_processing(self.show, threshold)
+              if (test == False):  # 如果人脸检测失败，重新拍照
+                  msg = QtWidgets.QMessageBox.warning(self, "警告", "请重新拍照", buttons=QtWidgets.QMessageBox.Ok)
+              else:  # 输出人脸框和人脸特征点
+                  photos.append(self.image)
+                  msg = QtWidgets.QMessageBox.warning(self, "结果", "拍照成功", buttons=QtWidgets.QMessageBox.Ok)
+                  self.count += 1
+
+    user.photos = photos
+        #print(user.photos)
+
+
 
     # 输入姓名
 
     def input_name(self):
         self.n = self.nameInput.text()  # 输入姓名
         user.name = self.n
-        # print(user.name)
+        #print(user.name)
 
     # 输入学号
 
     def input_id(self):
         self.i = self.idInput.text()  # 输入学号
         user.stuId = self.i
-        # print(user.id)
+        #print(user.id)
+
 
     # 注册
+
     def sign_in(self):
         if self.nameInput.text() == "":
             msg1 = QtWidgets.QMessageBox.warning(self, '警告', "请输入姓名", buttons=QtWidgets.QMessageBox.Ok)
         elif self.idInput.text() == "":
             msg2 = QtWidgets.QMessageBox.warning(self, '警告', "请输入学号", buttons=QtWidgets.QMessageBox.Ok)
-        elif self.nameInput.text() != "" and self.idInput.text() != "":
-            test1 = feature.Feature(user)
-            testDAO = DAO(test1)
-            try:
-                testDAO.ppandFeatureInfo(testDAO)
-                msg3 = QtWidgets.QMessageBox.information(self, '提示信息', '注册成功')
-            finally:
-                testDAO.closedb()
+        elif self.nameInput.text()!="" and self.idInput.text()!="":
+           #测试信息是否存入user中
+            #print(user.name, user.stuId)
+            #print(user.photos)
+            #test = feature.Feature(False, user.photos)
+            #print(test.embeddings)
+
+            #将用户信息存入user_info表
+
+            testuser=Dao(user,"user")
+            testuser.appandUserInfo()
+            msg3 = QtWidgets.QMessageBox.information(self, '提示信息', '注册成功')
+            testuser.closeDb()
+
+            #将数据存入feature_info表
+            test1=feature.Feature(True,user)
+            print(test1.user)
+            testDAO=Dao(test1)
+            testDAO.appandFeatureInfo()
+            msg3 = QtWidgets.QMessageBox.information(self,'提示信息','注册成功')
+            testDAO.closeDb()
+
+
 
 
 if __name__ == '__main__':
-    app = QtWidgets.QApplication(sys.argv)  # 固定的，表示程序应用
-    ui = mywindow()  # 实例化Ui_MainWindow
-    ui.show()  # 调用ui的show()以显示。同样show()是源于父类QtWidgets.QWidget的
-    sys.exit(app.exec_())  # 不加这句，程序界面会一闪而过
+ app = QtWidgets.QApplication(sys.argv)  # 固定的，表示程序应用
+ ui = mywindow()  # 实例化Ui_MainWindow
+ ui.show()  # 调用ui的show()以显示。同样show()是源于父类QtWidgets.QWidget的
+ sys.exit(app.exec_())  # 不加这句，程序界面会一闪而过
