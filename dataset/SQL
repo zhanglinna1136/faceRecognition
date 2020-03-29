@@ -1,0 +1,19 @@
+# 创建用户信息表
+creinfoSQL = """
+            CREATE TABLE IF NOT EXISTS `user_info` (
+            `ID` int(11) NOT NULL auto_increment,
+            name varchar(5),
+            stu_id varchar(50),
+            `photo` mediumblob,
+            `feature_ID` int(11),
+            PRIMARY KEY (`ID`)
+            ) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+            """
+
+# 创建人脸特征向量表
+crefeatureSQL = """CREATE TABLE IF NOT EXISTS `feature_info` (
+            `feature_ID` int(11) NOT NULL auto_increment,
+            stu_id varchar(50),
+            feature mediumblob,
+            PRIMARY KEY (`feature_ID`)
+            ) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ; """
